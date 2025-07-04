@@ -1,0 +1,14 @@
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.AssemblyInfoInputs.cache
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.AssemblyInfo.cs
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.csproj.CoreCompileInputs.cache
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.exe
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.deps.json
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.runtimeconfig.json
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.dll
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.pdb
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.dll
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\refint\MiProyectoDotNet.dll
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.pdb
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.genruntimeconfig.cache
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\ref\MiProyectoDotNet.dll
