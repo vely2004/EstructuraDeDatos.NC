@@ -12,3 +12,4 @@ C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj
 C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.pdb
 C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.genruntimeconfig.cache
 C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\ref\MiProyectoDotNet.dll
+C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.sourcelink.json
