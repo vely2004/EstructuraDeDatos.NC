@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections.Generic;
 namespace Semana7;
@@ -61,3 +62,5 @@ public class HanoiSolver
         Console.WriteLine();
     }
 }
+
+*/

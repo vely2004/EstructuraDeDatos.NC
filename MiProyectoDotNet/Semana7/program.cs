@@ -1,3 +1,4 @@
+/*
 using System;
 using Semana7;
 
@@ -32,3 +33,4 @@ class Program
         }
     }
 }
+*/
