@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,3 +42,4 @@ Console.WriteLine("\n ----Ciudadanos vacunados únicamente con Pfizer----");
 foreach (var c in soloPfizer) Console.WriteLine(c);
 Console.WriteLine("\n ----Ciudadanos vacunados únicamente con AstraZeneca----");
 foreach (var c in soloAstra) Console.WriteLine(c);
+*/
