@@ -13,6 +13,8 @@ C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj
 C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.genruntimeconfig.cache
 C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\ref\MiProyectoDotNet.dll
 C:\Users\cemin.DESKTOP-B8H90EL\.vscode\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.sourcelink.json
+D:\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.exe
+D:\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.dll
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.GeneratedMSBuildEditorConfig.editorconfig
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.AssemblyInfoInputs.cache
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.AssemblyInfo.cs
@@ -21,10 +23,8 @@ D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.sour
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.dll
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\refint\MiProyectoDotNet.dll
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.pdb
-D:\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.exe
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.deps.json
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.runtimeconfig.json
-D:\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.dll
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\bin\Debug\net10.0\MiProyectoDotNet.pdb
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\MiProyectoDotNet.genruntimeconfig.cache
 D:\EstructuraDeDatos.NC\MiProyectoDotNet\obj\Debug\net10.0\ref\MiProyectoDotNet.dll

@@ -42,7 +42,7 @@ class Biblioteca
             Console.WriteLine("8. Eliminar libro");
             Console.WriteLine("9. Salir");
             Console.Write("Seleccione una opción (1-9): ");
-            string opcion = Console.ReadLine();
+            string? opcion = Console.ReadLine();
 
             switch (opcion)
             {
@@ -63,7 +63,13 @@ class Biblioteca
     static void RegistrarLibro()
     {
         Console.Write("Ingrese el código del libro: ");
-        string codigo = Console.ReadLine().Trim();
+        string? codigo = Console.ReadLine()?.Trim();
+
+        if (string.IsNullOrEmpty(codigo))
+        {
+            Console.WriteLine("El código no puede estar vacío.");
+            return;
+        }
 
         if (BibliotecaLibros.ContainsKey(codigo))
         {
@@ -72,24 +78,48 @@ class Biblioteca
         }
 
         Console.Write("Ingrese el título: ");
-        string titulo = Console.ReadLine().Trim();
-        Console.Write("Ingrese el autor: ");
-        string autor = Console.ReadLine().Trim();
-        Console.Write("Ingrese el género: ");
-        string genero = Console.ReadLine().Trim();
-        Console.Write("Ingrese el año de publicación: ");
-        int año = int.Parse(Console.ReadLine().Trim());
-        Console.Write("¿Está disponible? (s/n): ");
-        bool disponible = Console.ReadLine().ToLower() == "s";
+        string? titulo = Console.ReadLine()?.Trim();
+        if (string.IsNullOrEmpty(titulo))
+        {
+            Console.WriteLine("El título no puede estar vacío.");
+            return;
+        }
 
-        BibliotecaLibros[codigo] = new Libro(titulo, autor, genero, codigo, año, disponible);
+        Console.Write("Ingrese el autor: ");
+        string? autor = Console.ReadLine()?.Trim();
+        if (string.IsNullOrEmpty(autor))
+        {
+            Console.WriteLine("El autor no puede estar vacío.");
+            return;
+        }
+
+        Console.Write("Ingrese el género: ");
+        string? genero = Console.ReadLine()?.Trim();
+        if (string.IsNullOrEmpty(genero))
+        {
+            Console.WriteLine("El género no puede estar vacío.");
+            return;
+        }
+
+        Console.Write("Ingrese el año de publicación: ");
+        int? año = int.TryParse(Console.ReadLine()?.Trim(), out var tempAño) ? tempAño : null;
+        Console.Write("¿Está disponible? (s/n): ");
+        bool disponible = Console.ReadLine()?.ToLower() == "s";
+
+        BibliotecaLibros[codigo] = new Libro(titulo, autor, genero, codigo, año ?? 0, disponible);
         Console.WriteLine("Libro registrado exitosamente.");
     }
 
     static void EliminarLibro()
     {
         Console.Write("Ingrese el código del libro a eliminar: ");
-        string codigo = Console.ReadLine().Trim();
+        string? codigo = Console.ReadLine()?.Trim();
+
+        if (string.IsNullOrEmpty(codigo))
+        {
+            Console.WriteLine("El código no puede estar vacío.");
+            return;
+        }
 
         if (BibliotecaLibros.Remove(codigo))
             Console.WriteLine("Libro eliminado con éxito.");
@@ -100,7 +130,13 @@ class Biblioteca
     static void BuscarPorCodigo()
     {
         Console.Write("Ingrese el código del libro: ");
-        string codigo = Console.ReadLine().Trim();
+        string? codigo = Console.ReadLine()?.Trim();
+
+        if (string.IsNullOrEmpty(codigo))
+        {
+            Console.WriteLine("El código no puede estar vacío.");
+            return;
+        }
 
         if (BibliotecaLibros.ContainsKey(codigo))
             MostrarLibro(codigo, BibliotecaLibros[codigo]);
@@ -111,7 +147,13 @@ class Biblioteca
     static void BuscarPorTitulo()
     {
         Console.Write("Ingrese el título: ");
-        string titulo = Console.ReadLine().Trim().ToLower();
+        string? titulo = Console.ReadLine()?.Trim().ToLower();
+
+        if (string.IsNullOrEmpty(titulo))
+        {
+            Console.WriteLine("El título no puede estar vacío.");
+            return;
+        }
 
         var resultados = BibliotecaLibros.Where(x => x.Value.Titulo.ToLower().Contains(titulo));
         if (resultados.Any())
@@ -126,7 +168,13 @@ class Biblioteca
     static void BuscarPorAutor()
     {
         Console.Write("Ingrese el autor: ");
-        string autor = Console.ReadLine().Trim().ToLower();
+        string? autor = Console.ReadLine()?.Trim().ToLower();
+
+        if (string.IsNullOrEmpty(autor))
+        {
+            Console.WriteLine("El autor no puede estar vacío.");
+            return;
+        }
 
         var resultados = BibliotecaLibros.Where(x => x.Value.Autor.ToLower().Contains(autor));
         if (resultados.Any())
@@ -141,7 +189,13 @@ class Biblioteca
     static void BuscarPorGenero()
     {
         Console.Write("Ingrese el género: ");
-        string genero = Console.ReadLine().Trim().ToLower();
+        string? genero = Console.ReadLine()?.Trim().ToLower();
+
+        if (string.IsNullOrEmpty(genero))
+        {
+            Console.WriteLine("El género no puede estar vacío.");
+            return;
+        }
 
         var resultados = BibliotecaLibros.Where(x => x.Value.Genero.ToLower().Contains(genero));
         if (resultados.Any())
@@ -156,7 +210,7 @@ class Biblioteca
     static void BuscarPorAño()
     {
         Console.Write("Ingrese el año de publicación: ");
-        int año = int.Parse(Console.ReadLine().Trim());
+        int? año = int.TryParse(Console.ReadLine()?.Trim(), out var tempAño) ? tempAño : null;
 
         var resultados = BibliotecaLibros.Where(x => x.Value.Año == año);
         if (resultados.Any())
