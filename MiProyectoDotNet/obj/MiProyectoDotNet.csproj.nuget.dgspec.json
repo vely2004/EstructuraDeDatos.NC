@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cemin.DESKTOP-B8H90EL\\.vscode\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj": {}
+    "D:\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cemin.DESKTOP-B8H90EL\\.vscode\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj": {
+    "D:\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cemin.DESKTOP-B8H90EL\\.vscode\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj",
+        "projectUniqueName": "D:\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj",
         "projectName": "MiProyectoDotNet",
-        "projectPath": "C:\\Users\\cemin.DESKTOP-B8H90EL\\.vscode\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj",
+        "projectPath": "D:\\EstructuraDeDatos.NC\\MiProyectoDotNet\\MiProyectoDotNet.csproj",
         "packagesPath": "C:\\Users\\cemin.DESKTOP-B8H90EL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cemin.DESKTOP-B8H90EL\\.vscode\\EstructuraDeDatos.NC\\MiProyectoDotNet\\obj\\",
+        "outputPath": "D:\\EstructuraDeDatos.NC\\MiProyectoDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cemin.DESKTOP-B8H90EL\\AppData\\Roaming\\NuGet\\NuGet.Config"
